@@ -1,7 +1,7 @@
-var display = temp.getElementById("display");
-var minutos = temp.getElementById("minutos");
-var segundos = temp.getElementById("segundos");
-var começar = temp.getElementById("começar");
+var display = document.getElementById("display");
+var minutos = document.getElementById("minutos");
+var segundos = document.getElementById("segundos");
+var começar = document.getElementById("começar");
 
 var cronometroSeg;
 var minutoAtual;
@@ -29,7 +29,7 @@ começar.addEventListener('click',function() {
                     segundoAtual = 59;
                 }else{
                     alert("Acabou!");
-                    temp.getElementById("sound").play();
+                    document.getElementById("sound").play();
                     clearInterval(interval);
                 }
             }
