@@ -1,7 +1,7 @@
-var display = temporizador.getElementById("display");
-var minutos = temporizador.getElementById("minutos");
-var segundos = temporizador.getElementById("segundos");
-var começar = temporizador.getElementById("começar");
+var display = temp.getElementById("display");
+var minutos = temp.getElementById("minutos");
+var segundos = temp.getElementById("segundos");
+var começar = temp.getElementById("começar");
 
 var cronometroSeg;
 var minutoAtual;
