@@ -29,7 +29,7 @@ começar.addEventListener('click',function() {
                     segundoAtual = 59;
                 }else{
                     alert("Acabou!");
-                    temporizador.getElementById("sound").play();
+                    temp.getElementById("sound").play();
                     clearInterval(interval);
                 }
             }
