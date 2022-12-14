@@ -20,7 +20,7 @@ começar.addEventListener('click',function() {
 
     display.childNodes[1].innerHTML = minutoAtual + ":" +segundoAtual;
 
-    interval = setInterval(function () {
+    interval = setInterval(function(){
 
         segundoAtual--;
             if(segundoAtual <= 0) {
